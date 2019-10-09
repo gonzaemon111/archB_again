@@ -1,0 +1,4 @@
+SimMips_Machine_Setting
+
+@map 0x100 0x100 MIERU_IO
+@map 0x0 0x10000 MAIN_MEMORY

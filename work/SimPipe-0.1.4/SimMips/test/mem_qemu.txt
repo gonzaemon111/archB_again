@@ -1,0 +1,11 @@
+SimMips_Machine_Setting
+0.5.0
+
+@map 0x00000000 0x08000000 MAIN_MEMORY
+@map 0x14000000 0x00001000 ISA_IO
+@map 0x100b8000 0x00000004 ISA_BUS
+
+@mem 00800000 test/initrd.gz
+@mem 00fffef0 test/arg-qemu.bin
+
+@reg $sp=0xa0007f00
